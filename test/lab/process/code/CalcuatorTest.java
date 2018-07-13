@@ -95,4 +95,16 @@ class CalcuatorTest {
 
 	}
 
+	@Test
+	void testPower() {
+		int value1 = 5;
+		int value2 = 3;
+		double answer;
+
+		answer = calculator.power(value1, value2);
+
+		assertEquals(answer, 125);
+
+	}
+
 }
