@@ -54,6 +54,19 @@ public class Calculator {
 	}
 
 	/**
+	 * Power function
+	 * 
+	 * @param value1
+	 *            Base Value
+	 * @param value2
+	 *            Exponent
+	 * @return
+	 */
+	public double power(int value1, int value2) {
+		return Math.pow(value1, value2);
+	}
+
+	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
